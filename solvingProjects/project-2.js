@@ -7,4 +7,14 @@ function multi (num){
     
     
 }
-multi(5)
+multi(9)
+// multi(2)
+// multi(3)
+// multi(4)
+// multi(5)
+// multi(6)
+// multi(6)
+// multi(7)
+// multi(8)
+// multi(9)
+// multi(10)

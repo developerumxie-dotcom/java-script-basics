@@ -1,7 +1,7 @@
 
-const firstitem =(callback) => {
+const firstitem =(callbackItems) => {
     console.log("add first item");
-     callback()
+     callbackItems()
 }
 
 const seconditem = () => {

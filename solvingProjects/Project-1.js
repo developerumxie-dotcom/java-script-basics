@@ -1,5 +1,5 @@
  function check(person){
-    console.log("hey"+ person.name);
+    console.log("hey", person.name);
     if( person.age <=18){
         console.log("you are a adult person and your age is", person.age);
         
