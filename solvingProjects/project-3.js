@@ -3,10 +3,7 @@ const details = [{ name: "umair", age: 21 },
 { name: "imran", age: 9 }]
 
 let mapFunction = details.map((data) =>{
-    return data.name
-    
-    
-    
+    return data.name    
 
 })
 

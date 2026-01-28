@@ -51,26 +51,28 @@
 
 // filter............................................
 
-const age = [22,34,55,77]
+// const age = [22,34,55,77]
 
-var a = age.filter((data)=>{
-    return data 
-})
+// var a = age.filter((data)=>{
+//     return data 
+// })
 
-console.log("this is a filter :",a);
+// console.log("this is a filter :",a);
 
 
 
 
 //find
 
-const ageeee = [22,34,55,77]
+// const ageeee = [22,34,55,77]
 
-const finddd = age.find((data)=>{
-    return data 
-})
+// const finddd = age.find((data)=>{
+//     return data 
+// })
 
-console.log("this is a find : ",finddd);
+// console.log("this is a find : ",finddd);
 
+//include.....................
 
-
+// let arr = ["apple", "mango"];
+// console.log(arr.includes("mano")); // true
