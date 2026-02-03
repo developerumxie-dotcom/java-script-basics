@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #nuye{
+            margin-left: 40%;
+            width: 200px;
+            height: 200px;
+            border: 10px black solid;
+            border-radius:100%;
+    
+        }
+        .sec{
+            margin-left: 43%;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="nuye">
+    
+
+    </div>
+    <br>
+    <div class="sec">
+        <button style="background-color: red;" onclick="main('red')">red</button>
+        <button style="background-color: blue;" onclick="main('blue')">blue</button>
+        <button  style="background-color: green;" onclick="main('green')" >green</button>
+
+    </div>
+
+
+    <script>
+ 
+ const main = (clr) =>{
+   
+  let aa = document.getElementById("nuye")
+   aa.style.backgroundColor = clr
+
+ }
+    </script>
+</body>
+</html>

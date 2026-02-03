@@ -72,7 +72,11 @@
 
 // console.log("this is a find : ",finddd);
 
-//include.....................
+//include...........................
 
 // let arr = ["apple", "mango"];
-// console.log(arr.includes("mano")); // true
+// console.log(arr.includes("mano")); // true   
+
+
+
+
