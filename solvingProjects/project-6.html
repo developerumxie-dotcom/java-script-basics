@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="txt1">
+    <button onclick="sample()">click here</button>
+    <h1 id="hed1"> </h1>
+    <button  id="btn2" style="background-color: red;">red
+    </button >
+    <button id="btn3" style="background-color: green;">green
+    </button>
+
+        <script>
+            const sample = ()=>{
+                let a = document.getElementById("txt1").value
+                let b= document.getElementById("hed1")
+                
+                b.innerHTML = a
+
+                let d =  document.getElementById("btn2")
+               
+            
+                d.addEventListener("mouseover", (z)=>{
+                    
+                    
+                       b.style.color="red"
+                    b.style.fontSize="50px"
+                })
+
+                // let e = document.getElementById("btn3")
+
+                // e.addEventListener("mouseover",()=>{
+                //     b.style.color="green" 
+                //     b.style.fontSize="50px"
+                
+                // } )
+
+
+               
+
+            
+
+                
+
+
+
+            }
+        </script>
+
+</body>
+</html>
