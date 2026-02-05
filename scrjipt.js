@@ -35,3 +35,10 @@
 
 // varibless();
 
+const colorChange = (clr) => {
+  //   output.style.color = clr;
+  console.log(clr);
+};
+
+
+colorChange("sajad")
